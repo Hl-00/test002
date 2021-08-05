@@ -126,9 +126,9 @@ CORS_ORIGIN_ALLOW_ALL = True
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
 STATIC_URL = '/static/'
-STATIC_TOOT = os.path.join(BASE_DIR,'frontend')
+STATIC_TOOT = os.path.join(BASE_DIR,'static')
 STATICFILE_DIRS = [
-    os.path.join(BASE_DIR,'frontend'),
+    os.path.join(BASE_DIR,'frontend/static'),
 ]
 
 # Default primary key field type
